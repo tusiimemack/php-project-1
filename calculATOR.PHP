@@ -23,21 +23,21 @@
       echo "Addition is" . $add;
     }
 
-    if(isset($_POST['A'])){
+    if(isset($_POST['S'])){
         $num1 = $_POST['num1'];
         $num2 = $_POST['num2'];
         $subtract = $num1 - $num2;
         echo "Subtraction is" . $subtract;
       }
 
-      if(isset($_POST['A'])){
+      if(isset($_POST['M'])){
         $num1 = $_POST['num1'];
         $num2 = $_POST['num2'];
         $multiple = $num1 * $num2;
         echo "Multiplication is" . $multiple;
       }
 
-      if(isset($_POST['A'])){
+      if(isset($_POST['D'])){
         $num1 = $_POST['num1'];
         $num2 = $_POST['num2'];
         $divide = $num1 / $num2;
